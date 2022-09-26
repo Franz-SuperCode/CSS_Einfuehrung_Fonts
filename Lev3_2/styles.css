@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Cinzel-Medium;
+    src: url("./fonts/Cinzel/static/Cinzel-Medium.ttf")
+}
+
+@font-face {
+    font-family: Sacramento-Regular;
+    src: url("./fonts/Sacramento/Sacramento-Regular.ttf")
+}
+
+h1 {
+    background-color: black;
+    text-shadow: 2px 2px red;
+    color: white;
+    font-style: italic;
+    font-family: Cinzel-Medium;
+}
+
+main p:nth-of-type(1) {
+    background-color: rgb(179, 192, 160);
+    font-family: Sacramento-Regular;
+}
+
+main p:nth-of-type(5) {
+    background-color: rgb(109, 41, 72);
+    font-family: Cinzel-Medium;
+}
+
+main p:nth-of-type(10) {
+    background-color: rgb(105, 102, 103);
+    letter-spacing: 10px;
+}
+
+p span:nth-of-type(1) {
+    color: blue;
+}
+
+p span:nth-of-type(2) {
+    color: rgb(174, 255, 0);
+}

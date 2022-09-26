@@ -1,0 +1,29 @@
+h1 {
+    font-size: 48px;
+    font-family: Tahoma;
+    background-color: rgb(92, 92, 92);
+    color: white;
+    text-align: center;
+}
+
+
+main p:nth-of-type(1) {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h2 {
+    color: rgb(175, 173, 173);
+    text-shadow: 2px 2px black;
+    word-spacing: 7px;
+    letter-spacing: 15px;
+}
+
+ul {
+    background-color: grey;
+}
+
+li {
+    margin-bottom: 15px;
+    background-color: rgb(65, 65, 65);
+}
